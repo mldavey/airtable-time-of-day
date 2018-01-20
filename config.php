@@ -5,9 +5,9 @@
 $error_reporting = error_reporting(E_ALL);
 
 //Airtable variables
-$api_key = "YOUR_KEY_HERE";
+$api_key = "YOUR_API_KEY_HERE";
+$basic_api_url = "https://api.airtable.com/url/for/your/base"; //in the format https://api.airtable.com/v#/xxxxxxxxxxxx/BaseName
 $max_records = "10";
-$base_name = "YOUR_BASE_NAME";
 $time_column_name = "End Time"; //datetime column
 $tod_column_name = "Time of Day"; //column to be updated
 
